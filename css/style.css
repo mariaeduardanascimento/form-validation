@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+
+html{
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background: url(../bg-img/bg-repeat.jpg) center;
+    width: 100%;
+    background-size: contain;
+}
+
+.container{
+    display: flex;
+    max-width: 1440px;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .texto-left{
+    color: #fff;
+    margin-right: 80px;
+    max-width: 400px;
+
+}
+
+.container .texto-left .titulo{
+    font-size: 27px;
+    font-weight: 900;
+
+}
+
+.container .texto-left .informacao{
+    font-size: 18px;
+    margin-top: 10px;
+    
+}
+
+.container .conteudo-form{
+    width: 450px;
+    height: 470px;
+    padding: 10px;
+    background: #fff;
+}
+
+.container .conteudo-form .input {
+    width: 90%;
+    padding: 10px;
+    margin: 0px 20px;
+    margin: 15px 20px 0px 20px;
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 5px;
+    border: 1px solid #000;
+    
+}
+
+
+
+.container .conteudo-form .mensagem textarea{
+    resize: none;
+    height: 130px;
+
+}
+
+.container .conteudo-form .span{
+    margin-left: 22px;
+    font-size: 8px;
+    color: #F52E2E;
+    display: none;
+}
+
+.container .conteudo-form .campo-obrigatorio{
+    margin: 10px 0 0 15px;
+    font-size: 15px;
+}
+
+.container .conteudo-form button{
+    width: 90%;
+    height: 45px;
+    margin: 20px;
+    font-size: 15px;
+    background: #3CCC87;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+
+}
+
+/* ESTILO DO FORM AO SER VALIDADO */
+
+
+.container .conteudo-form .input.error{
+    border: 1px solid #F52E2E;
+
+}
+
+.container .conteudo-form .input.valido{
+    border: 1px solid #00C22B
+}
+
+.container .conteudo-form .span.validacao{
+    display: block;
+    margin-bottom: -10px;
+}
